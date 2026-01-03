@@ -1,0 +1,5 @@
+* text=auto
+
+# 파이썬, 텍스트 파일 등은 항상 LF(Unix 방식)로 통일
+*.py    text eol=lf
+*.txt   text eol=lf

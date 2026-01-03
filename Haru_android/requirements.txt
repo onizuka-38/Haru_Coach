@@ -1,0 +1,24 @@
+# --- Framework / Server ---
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+
+# --- Database (Oracle) ---
+sqlalchemy==2.0.31
+oracledb==2.3.0
+
+# --- Utility / AI 채점 ---
+rapidfuzz==3.9.6
+
+# --- Environment / 설정 관리 ---
+python-dotenv==1.0.1
+pydantic==2.7.0
+pydantic-settings==2.2.1
+python_multipart==0.0.20
+langchain-openai
+langchain-core
+
+# --- Optional: 개발 편의성 ---
+requests==2.32.3
+
+# .\.venv\Scripts\activate
+# uvicorn app.main:app --reload --port 8000

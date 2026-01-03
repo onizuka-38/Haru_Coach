@@ -1,0 +1,8 @@
+/.git
+.venv/
+__pycache__/
+*.db
+uploads/
+.env
+.idea/
+.vscode/

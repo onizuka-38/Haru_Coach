@@ -1,0 +1,46 @@
+
+# =========================================
+# Android Studio / Gradle .gitignore
+# =========================================
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# External build / NDK
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# Log files
+*.log
+
+# Keystore files (security-sensitive)
+*.jks
+*.keystore
+
+# APK / AAB build outputs
+*.apk
+*.ap_
+*.aab
+app/release/
+
+# Memory dumps
+*.hprof
+
+# Kotlin / IntelliJ build outputs
+out/
